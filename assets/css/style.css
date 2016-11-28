@@ -1,0 +1,181 @@
+/*
+ * Selected portions of Eric Meyer's CSS reset. 
+ * http://meyerweb.com/eric/tools/css/reset/
+ */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, 
+blockquote, a, em, img, strike, strong, sub, sup,
+tt, b, i, ol, ul, li, tr, th, td, canvas {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+/*
+ * Main CSS.
+ */
+
+body {
+  font-family: 'Rajdhani', sans-serif;
+  line-height: 1;
+  width: 100%;
+  height: 100%;
+  color: #212121;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+b {
+  font-weight: 600;
+}
+
+th {
+  text-align: left;
+  font-weight: 600;
+}
+
+th, td {
+  padding-bottom: 0.5em;
+}
+
+tr {
+  width: 50%;
+}
+
+.header-row th {
+  padding-top: 1em;
+}
+
+.snippet {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 0.9em;
+  padding-right: 30px;
+  padding: 10px;
+}
+
+.nav-table {
+  width: 100%;
+  padding: 7.5px 10px 7.5px 0;
+  height: 15%;
+  display: table;
+  overflow: hidden;
+  -webkit-transition: background-color 0.75s color 0.75s, text-shadow 0.75s;
+  -moz-transition: background-color 0.75s, color 0.75s, text-shadow 0.75s;
+  -o-transition: background-color 0.75s, color 0.75s, text-shadow 0.75s;
+  transition: background-color 0.75s, color 0.75s, text-shadow 0.75s;
+  cursor: pointer;
+}
+
+.select-box {
+  width: 100%;
+}
+
+.nav-cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.2em;
+  padding: 0 10px 0 0;
+}
+
+.nav-hold2 {
+  width: 25%;
+}
+
+.nav-label2 {
+  width: 50%;
+  font-weight: 600;
+  text-shadow: 1px 1px #d3d3d3;
+  border-top: 2px solid #212121;
+  border-bottom: 2px solid #212121;
+}
+
+.nav-yellowhold3 {
+  width: 26.65%;
+}
+
+.nav-blackhold3 {
+  width: 28.35%;
+}
+
+.nav-label3 {
+  width: 20%;
+  font-weight: 600;
+  text-shadow: 1px 1px #d3d3d3;
+  border-top: 2px solid #212121;
+  border-bottom: 2px solid #212121;
+}
+
+.left10 {
+  margin-left: 10px;
+}
+
+#tagline {
+  margin: 0.06em;
+  margin-left: calc(10px + 0.06em);
+}
+
+#content {
+  width: calc(100% - 372.5px - 12.5em); /* (360 + 7.5 + 5) px, (5 + 7.5) em */
+  height: 100%;
+  padding: 5em 5em 5em 7.5em;
+  float: left;
+}
+
+#index-tbl-wrapper {
+  width: 100%;
+  margin-top: 0.5em;
+  font-size: 1.2em;
+  margin-left: 0.06em;
+  table-layout: fixed;
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+
+#index-tbl-wrapper td {
+  border: 2px solid #212121;
+}
+
+#sidebar {
+  width: 360px;
+  height: 100vh;
+  border-left: 7.5px solid #212121;
+  position: fixed;
+  right: 0;
+}
+
+#site-title { 
+  margin: 0 7.5px;
+  background-color: #212121;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 30px;
+  font-size: 2em;
+  text-align: center;
+}
+
+#site-subtitle {
+  margin-top: 15px;
+  text-align: right;
+  margin-right: 15px;
+  font-size: 1.1em;
+}
