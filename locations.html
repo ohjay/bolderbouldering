@@ -14,7 +14,13 @@
     <h2 id="tagline">in pursuit of <strike>happiness</strike> the nearest rock</h2>
     
     <div class="left10 top15">
-      ...
+      <div id="map"></div>
+      <table id="zipcode-table">
+        <tr>
+          <td id="zipcode-input" width="20%" data-text="Enter a zipcode here" contentEditable=true></td>
+          <td id="zipcode-submit" width="80%">FIND ROCKS</td>
+        </tr>
+      </table>
     </div>
   </div>
   
@@ -59,7 +65,9 @@
   </div>
   
   <!-- Scripts -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAtoiK1NOfnnykmVryUtL_Bsh_o86qJTE&callback=initMap"></script>
   <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="assets/js/script.js"></script>
+  <script type="text/javascript" src="assets/js/locations.js"></script>
 </body>
 </html>

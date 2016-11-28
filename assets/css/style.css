@@ -61,6 +61,10 @@ tr {
   width: 50%;
 }
 
+[contentEditable=true]:empty:not(:focus):before{
+  content: attr(data-text);
+}
+
 .header-row th {
   padding-top: 1em;
 }
@@ -200,4 +204,38 @@ tr {
   text-align: right;
   margin-right: 15px;
   font-size: 1.1em;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+#zipcode-table {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#zipcode-table td {
+  padding: 0.5em;
+  vertical-align: middle;
+  border: 2px solid #212121;
+}
+
+#zipcode-input {
+  cursor: text;
+}
+
+#zipcode-input:focus {
+  outline: none;
+}
+
+#zipcode-submit {
+  background-color: #212121;
+  color: #a5a5a5;
+  font-weight: 600;
+  -webkit-transition: width 1s ease-in-out, color 1s ease-in-out;
+  -moz-transition: width 1s ease-in-out, color 1s ease-in-out;
+  -o-transition: width 1s ease-in-out, color 1s ease-in-out;
+  transition: width 1s ease-in-out, color 1s ease-in-out;
 }
