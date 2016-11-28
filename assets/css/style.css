@@ -78,10 +78,10 @@ tr {
   height: 15%;
   display: table;
   overflow: hidden;
-  -webkit-transition: background-color 0.75s color 0.75s, text-shadow 0.75s;
-  -moz-transition: background-color 0.75s, color 0.75s, text-shadow 0.75s;
-  -o-transition: background-color 0.75s, color 0.75s, text-shadow 0.75s;
-  transition: background-color 0.75s, color 0.75s, text-shadow 0.75s;
+  -webkit-transition: background-color 0.75s color 0.75s;
+  -moz-transition: background-color 0.75s, color 0.75s;
+  -o-transition: background-color 0.75s, color 0.75s;
+  transition: background-color 0.75s, color 0.75s;
   cursor: pointer;
 }
 
@@ -107,6 +107,10 @@ tr {
   text-shadow: 1px 1px #d3d3d3;
   border-top: 2px solid #212121;
   border-bottom: 2px solid #212121;
+  -webkit-transition: text-shadow 0.75s, border-color 0.75s;
+  -moz-transition: text-shadow 0.75s, border-color 0.75s;
+  -o-transition: text-shadow 0.75s, border-color 0.75s;
+  transition: text-shadow 0.75s, border-color 0.75s;
 }
 
 .nav-yellowhold3 {
@@ -123,10 +127,18 @@ tr {
   text-shadow: 1px 1px #d3d3d3;
   border-top: 2px solid #212121;
   border-bottom: 2px solid #212121;
+  -webkit-transition: text-shadow 0.75s, border-color 0.75s;
+  -moz-transition: text-shadow 0.75s, border-color 0.75s;
+  -o-transition: text-shadow 0.75s, border-color 0.75s;
+  transition: text-shadow 0.75s, border-color 0.75s;
 }
 
 .left10 {
   margin-left: 10px;
+}
+
+.top15 {
+  margin-top: 1.5em;
 }
 
 #tagline {

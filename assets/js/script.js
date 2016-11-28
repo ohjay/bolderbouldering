@@ -9,6 +9,7 @@ $(document).ready(function() {
     table.css('background-color', '#212121');
     table.css('color', '#fff');
     label.css('text-shadow', 'none');
+    label.css('border-color', '#ffffff');
   }, function() {
     var table = $(this).find('.nav-table');
     var label = $(this).find('.nav-label2');
@@ -19,6 +20,7 @@ $(document).ready(function() {
     table.css('background-color', '#ffffff');
     table.css('color', '#212121');
     label.css('text-shadow', '1px 1px #d3d3d3');
+    label.css('border-color', '#212121');
   });
   
   $('.select-box').click(function() {
