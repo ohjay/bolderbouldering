@@ -163,6 +163,21 @@ a:hover {
   font-size: 1.1em;
 }
 
+.safe-tagline {
+  background-color: white;
+  border-top: 2px solid #212121;
+  border-bottom: 2px solid #212121;
+  padding-bottom: 2px;
+}
+
+.yant {
+  font-family: 'Yantramanav', sans-serif;
+}
+
+.flipped {
+  transform: rotateY(180deg);
+}
+
 #climber-background {
   min-height: 100%;
   height: 100%;
@@ -176,12 +191,11 @@ a:hover {
 #ups-background {
   min-height: 100%;
   height: 100%;
-  min-width: calc(100% - 372.5px - 12.5em);
-  width: calc(100% - 372.5px - 12.5em);
+  min-width: calc(100% - 367.5px);
+  width: calc(100% - 367.5px);
   position: fixed;
   background-image: url('../images/ups_reduced.jpg');
   background-repeat: no-repeat;
-  margin-left: 7.5em;
 }
 
 #tagline {
@@ -278,4 +292,78 @@ a:hover {
 #article-ul li {
   padding-left: 7.5px;
   margin-bottom: 15px;
+}
+
+#training-box {
+  font-family: 'Yantramanav', sans-serif;
+  perspective: 2000px;
+}
+
+#tr1, #tr2, #tr3, #tr4 {
+  font-size: 1.3em;
+  color: white;
+  padding: 10px;
+}
+
+#tr1 {
+  background-color: #1496bb;
+}
+
+#tr2 {
+  background-color: #c02f1d;
+}
+
+#tr3 {
+  background-color: #1287a8;
+}
+
+#tr4 {
+  background-color: #107896;
+}
+
+#banana {
+  color: #ffde00;
+}
+
+#training-flip {
+  border: 2px solid #212121;
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: inset 0 0 0 0 #212121;
+  -webkit-transition: box-shadow ease 0.75s, color ease 0.75s;
+  -moz-transition: box-shadow ease 0.75s, color ease 0.75s;
+  transition: box-shadow ease 0.75s, color ease 0.75s;
+}
+
+#training-flip:hover {
+  box-shadow: inset 200px 0 0 0 #212121;
+  color: #ffffff;
+}
+
+#tb-wrapper {
+  transition: 0.75s;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+#tb-front {
+  transform: rotateY(0);
+  position: absolute;
+  z-index: 200;
+  backface-visibility: hidden;
+  border: 2px solid #212121;
+}
+
+#tb-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  backface-visibility: hidden;
+  border: 2px solid #212121;
+  background-color: white;
+}
+
+#pushgif {
+  padding: 10px;
 }
