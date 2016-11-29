@@ -81,6 +81,7 @@ a:hover {
 
 .header-row th {
   padding-top: 1em;
+  padding-left: 2px;
 }
 
 .snippet {
@@ -178,6 +179,45 @@ a:hover {
   transform: rotateY(180deg);
 }
 
+.snippet-wrapper {
+  transition: 0.75s;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.snippet-front {
+  transform: rotateY(0);
+  position: absolute;
+  z-index: 200;
+  backface-visibility: hidden;
+}
+
+.snippet-back {
+  text-transform: uppercase;
+  transform: rotateY(180deg);
+  position: absolute;
+  backface-visibility: hidden;
+  background-color: #212121;
+  color: #41b7d8;
+  font-weight: 600;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.snippet-back:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 100%;
+  border: 1.06em solid #212121;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+
+.td-snippet {
+  cursor: pointer;
+}
+
 #climber-background {
   min-height: 100%;
   height: 100%;
@@ -214,7 +254,7 @@ a:hover {
   width: 100%;
   margin-top: 0.5em;
   font-size: 1.2em;
-  margin-left: 0.06em;
+  margin-left: 0.00em;
   table-layout: fixed;
   border-spacing: 10px;
   border-collapse: separate;
@@ -222,6 +262,7 @@ a:hover {
 
 #index-tbl-wrapper td {
   border: 2px solid #212121;
+  padding-bottom: calc(2em - 2px);
   background-color: white;
 }
 
@@ -366,4 +407,8 @@ a:hover {
 
 #pushgif {
   padding: 10px;
+}
+
+#idx-training, #idx-inspiration, #idx-locations, #idx-articles {
+  perspective: 2000px;
 }
