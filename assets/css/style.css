@@ -454,7 +454,7 @@ a:hover {
   }
   
   #ups-background {
-    background-image: url('../images/ups_cropped.jpg');
+    background-image: url('../images/ups_medium.jpg');
   }
   
   #training-span {
@@ -470,6 +470,10 @@ a:hover {
 @media (max-width: 1100px) and (max-height: 800px) {
   #climber-background {
     background-image: url('../images/background_reduced.jpg');
+  }
+  
+  #ups-background {
+    background-image: url('../images/ups_cropped.jpg');
   }
   
   #inspiration-video, #map {
