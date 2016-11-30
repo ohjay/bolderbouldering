@@ -2,7 +2,7 @@
 Reference site for aspiring climbers (like myself)!
 
 ### Six jQuery Functions
-- `css`, `hover`, `click`, `attr`, `text`, `addClass`...
+- `css`, `hover`, `click`, `attr`, `text`, `addClass`
 
 ### Image Sources
 - [Climbing handholds](http://www.ferno.com.au/Portals/0/images/Rock%20Climbing/Climbing%20Wall%20Accessories/OnTop%20School%20Climbing%20Holds_Image4.jpg)
