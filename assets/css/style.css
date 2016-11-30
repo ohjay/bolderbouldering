@@ -189,6 +189,9 @@ a:hover {
   transform: rotateY(0);
   position: absolute;
   z-index: 200;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
@@ -196,6 +199,9 @@ a:hover {
   text-transform: uppercase;
   transform: rotateY(180deg);
   position: absolute;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #212121;
   color: #41b7d8;
@@ -402,6 +408,9 @@ a:hover {
   transform: rotateY(0);
   position: absolute;
   z-index: 200;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
   backface-visibility: hidden;
   border: 2px solid #212121;
 }
@@ -409,6 +418,9 @@ a:hover {
 #tb-back {
   transform: rotateY(180deg);
   position: absolute;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
   backface-visibility: hidden;
   border: 2px solid #212121;
   background-color: white;
