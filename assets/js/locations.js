@@ -16,7 +16,7 @@ $(document).ready(function() {
   var permissibleEvts = [8, 35, 36, 37, 38, 39, 40, 46];
   var expanded = false;
   var handleZipcodeInput = function(evt) {
-    if (!permissibleEvts.includes(evt.which) && zipcodeInput.text().length >= 5) {
+    if (!($.inArray(evt.which, permissibleEvts)) && zipcodeInput.text().length >= 5) {
       evt.preventDefault();
     }
     if (!expanded && zipcodeInput.text().length >= 5) {
