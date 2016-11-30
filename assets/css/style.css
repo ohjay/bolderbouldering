@@ -430,11 +430,6 @@ a:hover {
   padding: 10px;
 }
 
-#training-span {
-  background-color: white;
-  box-shadow: 0 0 7px 7px white;
-}
-
 #training-buffer {
   visibility: hidden;
 }
@@ -460,6 +455,11 @@ a:hover {
   
   #ups-background {
     background-image: url('../images/ups_cropped.jpg');
+  }
+  
+  #training-span {
+    background-color: white;
+    box-shadow: 0 0 7px 7px white;
   }
   
   #training-buffer:before {
