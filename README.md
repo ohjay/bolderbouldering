@@ -1,4 +1,4 @@
-# bolderbouldering
+# Bolder Bouldering
 Reference site for aspiring climbers (like myself)!
 
 ### Six jQuery Functions
