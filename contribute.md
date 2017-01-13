@@ -13,7 +13,7 @@ To submit content, you can either use the editor below or send an email to [owen
 Submission guidelines:
 
 1. You can write about pretty much anything related to climbing – mountaineering, free soloing, buildering... whatever floats your boat. Guides, exciting episodes, and TIL stories are all good. Basically, aim to write things that other people would want to read.
-2. Try to keep it appropriate. Keep profanities and vulgarities to a minimum. If you think that over 10% of the climbing community would be offended by something in your article, tone it down.
+2. Try to keep it appropriate. Keep profanity and vulgarities to a minimum. If you think that over 10% of the climbing community would be offended by something in your article, tone it down.
 
 <form action="//formspree.io/owen.jow01@gmail.com" method="POST">
   <input type="hidden" name="_subject" value="[Bolder Bouldering] Article Submission" />

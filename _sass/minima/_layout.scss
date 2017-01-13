@@ -102,6 +102,7 @@
   height: 300px;
   position: relative;
   transition: all 5s ease;
+  z-index: -1;
 }
 
 .banner-image {
@@ -366,9 +367,14 @@ input[type="submit"] {
   transition: box-shadow ease 0.75s, color ease 0.75s;
   background-color: #ffffff;
   font-family: $raj-font-family;
+  color: $text-color;
 }
 
 input[type="submit"]:hover {
   box-shadow: inset 75px 0 0 0 $text-color;
   color: #ffffff;
+}
+
+input[type="submit"]:focus {
+  outline: none;
 }
