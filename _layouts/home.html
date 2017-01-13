@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    
+    <div class="site-banner">
+      <div class="banner-image image1"></div>
+      <div class="banner-image image2"></div>
+    </div>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="home">
+
+          <h1 class="page-heading">Recent Content</h1>
+  
+          {{ content }}
+
+          <ul class="post-list">
+            {% for post in site.posts limit:3 %}
+              <li>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
+
+                <h2>
+                  <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                </h2>
+              </li>
+            {% endfor %}
+          </ul>
+
+          <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+        </div>
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
