@@ -8,7 +8,7 @@ tags:
   - Bouldering
 ---
 
-I'll need a bit of time to gather enough content for a real article, so while you're waiting you can tide yourself over on these. Or, alternatively, you might want to [write an article yourself](/contribute)! :)
+I'll need a bit of time to gather enough content for a real article, so while you're waiting you can tide yourself over on these. Alternatively, you might want to [write an article yourself](/contribute)!
 
 - [Beginner's Guide to Rock Climbing (ACTIVE)][beginners-guide]
 - [Six Basic Finger Grips for Face Climbing (About.com)][six-basic]
