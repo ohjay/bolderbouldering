@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+categories: [bb]
 permalink: /about/
 ---
 

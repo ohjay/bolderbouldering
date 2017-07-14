@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Articles
+categories: [bb]
 permalink: /articles/
 ---
 
