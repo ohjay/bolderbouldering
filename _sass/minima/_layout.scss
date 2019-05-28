@@ -28,6 +28,7 @@
 .site-nav {
   float: right;
   line-height: 56px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   .menu-icon {
     display: none;
@@ -161,6 +162,7 @@
 .footer-heading {
   font-size: 18px;
   margin-bottom: $spacing-unit / 2;
+  font-weight: 400;
 }
 
 .contact-list {
@@ -218,6 +220,7 @@ a:hover.contact-link span.username, a:hover.contact-link span.email {
 
 .page-heading {
   font-size: 20px;
+  font-weight: 400;
 }
 
 .post-list {
@@ -252,6 +255,7 @@ a:hover.contact-link span.username, a:hover.contact-link span.email {
   font-size: 42px;
   letter-spacing: -1px;
   line-height: 1;
+  font-weight: 400;
 
   @include media-query($on-laptop) {
     font-size: 36px;

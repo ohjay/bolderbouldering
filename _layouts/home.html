@@ -23,7 +23,7 @@
           <ul class="post-list">
             {% for post in site.posts limit:3 %}
               <li>
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} <span class="olddot">•</span> {{ post.author }}</span>
 
                 <h2>
                   <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>

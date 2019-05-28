@@ -14,7 +14,7 @@ permalink: /articles/
   {% if post.tags contains t %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a><br />
-    <span class="date">{{ post.date | date: "%B %-d, %Y" }} • {{ post.tags | reverse | pop | join: ', ' }}</span>
+    <span class="date">{{ post.date | date: "%B %-d, %Y" }} <span class="olddot">•</span> {{ post.tags | reverse | pop | join: ', ' }}</span>
   </li>
   {% endif %}
 {% endfor %}</ul>
