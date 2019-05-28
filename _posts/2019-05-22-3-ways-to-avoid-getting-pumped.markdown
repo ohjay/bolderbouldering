@@ -21,7 +21,7 @@ After an hour or so, both of them could barely maintain a grip on the holds anym
 
 At the same time, my arms felt completely fresh. Not to brag, but they were actually just starting to feel warmed up. I boulder about 4 times a week.
 
-It got me thinking about the techniques that I use to prevent my forearms from getting pumped. Later that day, I came up with a list of more than 10 ways to avoid pump when climbing and published it on my blog, over at [climbingblogger.com](https://climbingblogger.com).
+It got me thinking about the techniques that I use to prevent my forearms from getting pumped. Later that day, I came up with a [list of more than 10 ways to avoid pump when climbing](https://climbingblogger.com/how-to-avoid-pump-when-climbing) and published it on my blog, over at climbingblogger.com.
 
 Today, having the honor to write the first article on Owen’s bouldering blog, I’d like to share with you the three ways to avoid pump that I think are the most useful out of all the ways that I came up with.
 
