@@ -7,7 +7,7 @@ permalink: /contribute/
 
 <script src="/assets/ckeditor/ckeditor.js"></script>
 
-Are you a climber? If so, I'm sure you have a lot of great experiences to share. Help me increase the average quality of this website's content by submitting an article of your own! (Note: you'll be featured in the [archives](/articles) forever, unless you don't want to be.)
+Are you a climber? If so, I'm sure you have a lot of experiences to share. Help me increase the average quality of this website's content by submitting an article of your own! (Note: you'll be featured in the [archives](/articles) forever, unless you don't want to be.)
 
 To submit content, you can either use the editor below or send an email to [owen.jow01@gmail.com](mailto:owen.jow01@gmail.com). Your article(s) will be proofread and reviewed for quality within five business days (you should expect an email response). If approved, said article(s) will be published on the website within the same amount of time. If not, we can work on it. :)
 

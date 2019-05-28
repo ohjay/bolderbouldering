@@ -11,7 +11,7 @@ tags:
 
 About a week ago, I had the privilege of introducing two friends to bouldering at my local climbing gym.
 
-Of course, I didn't climb any of my nemesis projects that day. Instead I would climb the easy boulders together with my friends, trying to focus on demonstrating proper bouldering technique and hoping that they would learn by example.
+Of course, I didn't climb any of my nemesis projects that day. Instead I would climb the easy boulders together with my friends, focusing on demonstrating proper bouldering technique and hoping that they would learn by example.
 
 We had a lot of fun and in the end they both completed a boulder that they didn't think they would be able to manage beforehand!
 
